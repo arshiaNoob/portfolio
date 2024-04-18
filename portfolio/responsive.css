@@ -1,0 +1,93 @@
+@media screen and (max-width: 810px) {
+  header {
+    justify-content: space-between;
+    padding-inline: 10px;
+  }
+
+  main h1,
+  main h1 span {
+    font-size: 1.5rem;
+  }
+
+  main h2 {
+    font-size: 2.5rem;
+  }
+
+  main p {
+    font-size: 14px;
+  }
+
+  section.skils .about .sec h2,
+  section.skils .about .tec h2,
+  section.projects h2 {
+    font-size: 2rem;
+  }
+
+  section.skils .about .sec p {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 551px) {
+  main h2 {
+    font-size: 2rem;
+  }
+
+  header .links {
+    display: none;
+  }
+
+  section.skils .about .sec h2,
+  section.skils .about .tec h2,
+  section.projects h2 {
+    font-size: 1.5rem;
+  }
+
+  section.skils .about .sec {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .wraper {
+    width: 95vw;
+  }
+
+  section.about {
+    padding: 0;
+    padding-top: 40px;
+  }
+
+  footer h3 {
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  header div h2 {
+    font-size: 1.25rem;
+  }
+
+  header div img {
+    width: 40px;
+  }
+
+  header i {
+    font-size: 2rem;
+  }
+
+  main h1,
+  main h1 span {
+    font-size: 1.20rem;
+  }
+
+  main h2 {
+    font-size: 1.25rem;
+  }
+
+  main p {
+    font-size: 10px;
+  }
+
+  
+}
